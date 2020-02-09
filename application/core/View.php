@@ -22,7 +22,6 @@ class View
 
     public function render($title, $vars = [])
     {
-           // debug($vars);
             extract($vars);
             if(file_exists('application/views/'.$this->path.'.php')) {  // проверяем на существование вьюшки по пути, созданному при создании объекта этого класса в конструкторе ($path)
                 ob_start();
@@ -32,5 +31,23 @@ class View
             }else {
                 echo '<b>View not found: </b>' . 'application/views/' . $this->path . '.php';  // ошибка если не нашли вьюшку по такому пути
             }
+    }
+
+    public static function errorCode($code){
+        http_response_code($code);
+        require 'application/views/errors/' . $code . '.php';
+        exit();
+    }
+
+    public function redirect($url){
+         header('location: '.$url);
+         exit();
+    }
+
+    public function message($status, $message){
+        exit(json_encode(['status'=>$status, 'message'=>$message]));
+    }
+    public function location($url){
+        exit(json_encode(['url'=>$url]));
     }
 }

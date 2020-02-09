@@ -1,0 +1,31 @@
+.container{
+    display: inline-block;
+    width: 100%;
+}
+.task-todo{
+    border:5px dotted red;
+    width: 20%;
+    display: inline-block;
+    border-radius: 10%;
+}
+.task-doing{
+    border: 5px dashed yellow;
+    width: 20%;
+    display: inline-block;
+    border-radius: 10%;
+}
+.task-done{
+    border: 5px solid green ;
+    width: 20%;
+    display: inline-block;
+    border-radius: 10%;
+}
+.status{
+    text-align: center;
+    font-size: x-large;
+}
+.status p {
+    background-color: khaki;
+    border-radius: 30% 30% 0 0;
+    color: gray;
+}

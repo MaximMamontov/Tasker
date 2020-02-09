@@ -1,18 +1,21 @@
 <?php
 
-return [
-
-  'TaskSpurIT/index.php' => [
-      'controller' => 'main',
-      'action' => 'index',
-      ],
-    'TaskSpurIT/index.php/hello' => [
+return array(
+    'index.php' => array(
+        'controller' => 'main',
+        'action' => 'index'
+    ),
+    'index.php/hello' => array(
         'controller' => 'hello',
         'action' => 'say'
-      ],
-    'TaskSpurIT/index.php/taskplashki' => [
-      'controller' => 'plashki',
-      'action' => 'getthem'
-    ],
+    ),
+    'index.php/taskplashki' => array(
+        'controller' => 'plashki',
+        'action' => 'getthem'
+    ),
+    'index.php/sasac' => array(
+        'controller' => 'plashki',
+        'action' => 'pasha'
+    )
+);
 
-];
