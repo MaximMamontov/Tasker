@@ -3,13 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="61c5c0f2-4168-4395-8d57-2c8f32ab75de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/Repository/RepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/Repository/TaskRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/acl/hello.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/HelloController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/HelloController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/PlashkiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/PlashkiController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/core/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/View.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/lib/dev.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/lib/dev.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/models/Hello.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Hello.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/models/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/hello/say.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/hello/say.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/main/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/plashki/getthem.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/plashki/getthem.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +92,7 @@
       <workItem from="1581624840984" duration="1748000" />
       <workItem from="1582217226794" duration="8706000" />
       <workItem from="1583461491111" duration="597000" />
+      <workItem from="1584028860775" duration="470000" />
     </task>
     <servers />
   </component>
