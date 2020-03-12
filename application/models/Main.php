@@ -15,7 +15,7 @@ class Main extends Model
 
     public function getComments()
     {
-        $result = $this->db->row('SELECT `text`, `task_id` FROM comments');
+        $result = $this->db->row('SELECT `text`, `task_id`, `id` FROM comments');
         return $result;
     }
 

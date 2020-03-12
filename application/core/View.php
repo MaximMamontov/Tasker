@@ -23,13 +23,13 @@ class View
     public function render($title, $vars = [])
     {
             extract($vars);
-            if(file_exists('application/views/'.$this->path.'.php')) {  // проверяем на существование вьюшки по пути, созданному при создании объекта этого класса в конструкторе ($path)
+            if(file_exists('application/views/'.$this->path.'.php')) {
                 ob_start();
-                require 'application/views/' . $this->path . '.php'; //подключаем и запускаем найденую вьюшку (main/index) где main папка index файл
+                require 'application/views/' . $this->path . '.php';
                 $content = ob_get_clean();
-                require 'application/views/layouts/' . $this->layout. '.php';           //подключаем и выполняем стандартный слой
+                require 'application/views/layouts/' . $this->layout. '.php';
             }else {
-                echo '<b>View not found: </b>' . 'application/views/' . $this->path . '.php';  // ошибка если не нашли вьюшку по такому пути
+                echo '<b>View not found: </b>' . 'application/views/' . $this->path . '.php';
             }
     }
 

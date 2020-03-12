@@ -8,7 +8,11 @@ use application\core\Model;
 
 class Hello extends Model
 {
-//        public function addTask(){
-//              $this->db->saveTask("INSERT INTO tasks (`name`, description, status) VALUES (:tName, :tDesc, :tStatus)");
-//        }
+    public function getXML($array){
+        debug($array);
+    }
+
+    public function getCurrency($array){
+        debug($array);
+    }
 }

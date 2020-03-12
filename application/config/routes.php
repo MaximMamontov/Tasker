@@ -12,10 +12,6 @@ return array(
     'index.php/taskplashki' => array(
         'controller' => 'plashki',
         'action' => 'getthem'
-    ),
-    'index.php/sasac' => array(
-        'controller' => 'plashki',
-        'action' => 'pasha'
     )
 );
 

@@ -3,6 +3,7 @@
 namespace application\controllers;
 
 use application\core\Controller;
+
 //use application\Repository\TaskRepository;
 
 /**
@@ -12,12 +13,8 @@ use application\core\Controller;
 class PlashkiController extends Controller
 {
 
-    public function getthemAction(){
-        $this->view->render('Plaski');
-    }
-
-    public function pashaAction()
+    public function getthemAction()
     {
-        debug('SASAC');exit();
+        $this->view->render('Plaski');
     }
 }

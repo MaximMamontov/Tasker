@@ -160,18 +160,20 @@
                        $i < count($comments);
                        ++$i): ?>
                 <?php if ($comments[$i]['task_id'] == $val['id']): ?>
-                    <i><?php echo $comments[$i]['text'] ?></i><br><hr>
+                    <i><?php echo $comments[$i]['text'] ?></i>
+                    <form method="post">
+                        <input type="hidden" name="deleteComment" value="<?php echo $comments[$i]['id'] ?>">
+                        <input type="submit" value="XC" style="background-color: blueviolet">
+                    </form>
+                    <br><hr>
                 <?php endif; ?>
             <?php endfor; ?>
         </div>
     <?php endif; ?>
     <?php endforeach; ?>
 </div>
-<?php //foreach ($comments as $comval): ?>
-<!--    <p>--><?php //echo $comval['text'] ?><!--</p>-->
-<!--    <p>--><?php //echo $comval['task_id'] ?><!--</p>-->
-<!--    <hr>-->
-<?php //endforeach; ?>
+<?php //debug($comments) ?>
+
 
 
 

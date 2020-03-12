@@ -5,6 +5,5 @@ error_reporting(E_ALL);
 function debug($data)
 {
     echo '<pre>' . print_r($data, 1) . '</pre>';
-    exit();
 }
 
